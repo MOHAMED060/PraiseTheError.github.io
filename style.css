@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header {
+  background-color: #2e2e8c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo {
+  width: 70px;
+}
+.header-links a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+.header-links a:hover {
+  background-color: #9999f1;
+  border-radius: 10px;
+}
+.btn {
+  background-color: rgb(254, 107, 107);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(255, 183, 183);
+}
+.landing-page {
+  background-color: #2e2e8c;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 0 40px 40px;
+}
+.image {
+  width: 360px;
+  border-radius: 10px;
+}
+.landing-page-search {
+  padding: 20px 15px;
+}
+.landing-page-text {
+    width: 800px;
+}
+.landing-page-search input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0 10px;
+}
+.landing-page-search button {
+    position: absolute;
+    left: 190px;
+    height: 30px;
+}
